@@ -48,6 +48,44 @@ header{max-width:1020px;border-bottom:1px solid #b38e8740;padding:28px 24px 24px
 footer{color:#8c7077;letter-spacing:.14em}
 .spark{color:#b65b79}
 @media(max-width:540px){header{padding:18px 16px}.brand{font-size:25px}.wrap{width:calc(100% - 20px);margin:18px auto 45px;padding:28px 20px 36px;min-height:560px}.counter{margin-bottom:35px}.stage h1{font-size:clamp(43px,12vw,66px)}.choice{min-height:78px}.top-note{font-size:9px}.letter-paper{padding:26px 20px}.letter-paper:before{inset:7px}}
+
+/* Midnight keepsake theme, deliberately dark but gentle to read. */
+:root{--bg:#100e16;--pink:#df91ad;--cream:#f6e9ec;--muted:#bba9b8;--ink:#f6e9ec;--rose:#df91ad;--gold:#c5a47e}
+html{background:#100e16;color-scheme:dark}
+body{background:radial-gradient(ellipse at 5% 0%,#4c293e 0,transparent 42%),radial-gradient(ellipse at 98% 100%,#25243d 0,transparent 48%),#100e16;color:#f6e9ec;background-attachment:fixed}
+body:before{opacity:.12}
+header{border-bottom-color:#c8a6b53a}
+.brand{color:#f0afc6}.top-note{color:#bda5b4}
+.wrap{border-color:#b99da04d;background:linear-gradient(145deg,#211b29f7,#17151ef7);box-shadow:0 28px 85px #0008,0 1px 0 #e4a4b021}
+.wrap:before,.wrap:after{color:#c5a47e}
+.progress{background:#544050}.progress>div{background:#df91ad}
+.counter{color:#bda4b3}
+.eyebrow{color:#e8a3bd}
+.stage h1{color:#fff1f3}.stage h1 em{color:#e8a3bd}
+.intro{color:#e0cbd5}
+.prompt{color:#e7b5c9}
+.choice{background:#2c2432;color:#f8eaf0;border-color:#6c5061;box-shadow:0 3px 0 #09070c44}
+.choice:hover{background:#3a293a;border-color:#df91ad;box-shadow:0 8px 24px #0005}
+.choice span{color:#e6a2bc}
+.choice.selected{background:#523044;border-color:#e8a3bd;color:#fff6f7}
+.reaction{border-left-color:#c5a47e}
+.reaction b{color:#f1aec5}.reaction p{color:#ead7e0}
+.next,.restart,.scene-action{background:#df91ad;color:#231420;box-shadow:0 5px 20px #0004}
+.next:hover,.restart:hover,.scene-action:hover{background:#f1b4cb;color:#231420}
+.music-toggle{background:#29202e;color:#f2d9e4;border-color:#705668}
+.music-toggle:hover{border-color:#df91ad}
+.letter-paper{background:#29222c;color:#f5e8e9;border-color:#876978;box-shadow:0 15px 50px #0007}
+.letter-paper:before{border-color:#735965}
+.letter-paper h2{color:#f1b5c8}
+.letter-paper p{color:#f0dfe5}
+.visual img{filter:grayscale(.35) sepia(.08);box-shadow:0 12px 35px #0007}
+.caption{color:#cbb0bd}
+.birthday-scene{background:radial-gradient(ellipse at center,#4b2d43,#201824);border-color:#806074}
+.scene-message{color:#f6c7d7}
+.gift-reveal{background:#332533;color:#f6e6ed;border-color:#9c758a}
+.gift-reveal h3,.gift-reveal p{color:#f8e6ed}
+footer{color:#b99dab}
+.spark{color:#f4b3ca}
 </style></head>
 <body><header><div class="brand">Dear Preet.</div><div class="top-note">A birthday made for one</div><button type="button" id="musicToggle" class="music-toggle" aria-label="Toggle background music" aria-pressed="false">♫ Music: off</button></header>
 <main class="wrap"><div class="progress" aria-label="Story progress"><div id="bar"></div></div><div class="counter"><span id="count">01 / 11</span><span>Preet, this is your story</span></div><div id="stage" class="stage" aria-live="polite"></div></main><footer>MADE WITH THOUGHT, FOR PREET · HAPPY BIRTHDAY</footer>

@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#110a11"><title>Dear Preet | A Little Birthday Adventure</title>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#08080c"><title>Dear Preet | A Little Birthday Adventure</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
 <style>
 :root{--bg:#100b10;--pink:#fa88ad;--cream:#fff0f4;--muted:#d8b7c5}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;min-height:100vh;background:radial-gradient(ellipse at 80% 15%,#60203b55,transparent 48%),radial-gradient(ellipse at 0% 90%,#5c1b3655,transparent 45%),var(--bg);color:var(--cream);font-family:'DM Sans',sans-serif}button{font:inherit;cursor:pointer}button:focus-visible{outline:3px solid white;outline-offset:4px}header{max-width:950px;margin:auto;padding:25px 25px;display:flex;justify-content:space-between;align-items:center;gap:15px}.brand{font:italic 24px 'Playfair Display',serif;color:var(--pink)}.top-note{color:#c9a2b3;font-size:11px;letter-spacing:.2em;text-transform:uppercase}.wrap{width:min(100% - 34px,760px);margin:45px auto 70px;min-height:570px;display:flex;flex-direction:column;justify-content:center}.progress{height:3px;background:#ffffff20;border-radius:5px;overflow:hidden}.progress>div{height:100%;background:var(--pink);width:0;transition:width .55s}.counter{display:flex;justify-content:space-between;align-items:center;color:#d6aabb;letter-spacing:.18em;font-size:11px;margin:16px 0 40px;text-transform:uppercase}.stage{animation:arrive .55s both}@keyframes arrive{from{opacity:0;transform:translateY(22px)}to{opacity:1;transform:translateY(0)}}.eyebrow{color:var(--pink);font-size:12px;letter-spacing:.35em;text-transform:uppercase;font-weight:700}.stage h1{font:400 clamp(47px,9vw,91px)/1.08 'Playfair Display',serif;letter-spacing:-.055em;margin:19px 0 24px}.stage h1 em{color:var(--pink);font-weight:400}.intro{font:400 clamp(18px,3vw,24px)/1.65 'Playfair Display',serif;color:#f0d4df;max-width:650px;margin:0 0 28px}.prompt{font-size:15px;color:#e9b8ca;margin:26px 0 17px}.choices{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.choice{min-height:100px;text-align:left;padding:22px;background:#251520;border:1px solid #fa88ad55;border-radius:12px;color:var(--cream);transition:transform .2s,border-color .2s,background .2s}.choice:hover{transform:translateY(-3px);border-color:var(--pink);background:#3d1c30}.choice span{display:block;color:var(--pink);font-size:12px;margin-bottom:9px;letter-spacing:.12em}.choice strong{font:400 clamp(17px,3vw,23px) 'Playfair Display',serif}.choice:disabled{cursor:default;opacity:.7;transform:none}.choice.selected{border-color:var(--pink);background:#55233e;opacity:1}.reaction{margin-top:25px;border-left:2px solid var(--pink);padding:8px 0 8px 20px;animation:arrive .5s both}.reaction b{color:var(--pink);font-size:12px;letter-spacing:.2em;text-transform:uppercase}.reaction p{font:italic 21px/1.6 'Playfair Display',serif;margin:10px 0 18px}.next,.restart{border:0;border-radius:100px;background:var(--pink);color:#200b15;font-weight:700;padding:15px 27px;transition:transform .2s}.next:hover,.restart:hover{transform:translateY(-2px)}.visual{margin:25px 0;max-width:430px}.visual img{width:100%;display:block;border-radius:4px;filter:grayscale(1);box-shadow:0 15px 60px #0008}.caption{font:italic 14px 'Playfair Display',serif;color:#d6aabb;margin-top:12px}.letter-paper{background:#f9e3e9;color:#4d2436;padding:30px;border-radius:5px;margin:25px 0;box-shadow:0 18px 50px #0005;animation:arrive .7s both}.letter-paper p{font:18px/1.85 'Playfair Display',serif;white-space:pre-line}.letter-paper{max-height:none}.letter-paper h2{font:36px 'Playfair Display',serif}.spark{position:fixed;pointer-events:none;z-index:9;animation:fall 2.8s linear forwards;color:var(--pink)}@keyframes fall{to{transform:translateY(110vh) rotate(300deg);opacity:0}}footer{text-align:center;padding:22px;color:#b88599;font-size:12px;letter-spacing:.15em}@media(max-width:540px){.wrap{margin:12px auto 50px;min-height:560px}.counter{margin-bottom:32px}.choices{grid-template-columns:1fr}.choice{min-height:77px;padding:17px}.stage h1{font-size:clamp(47px,13vw,70px)}.top-note{font-size:9px}.letter-paper{padding:22px}}@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important}}
@@ -49,43 +49,37 @@ footer{color:#8c7077;letter-spacing:.14em}
 .spark{color:#b65b79}
 @media(max-width:540px){header{padding:18px 16px}.brand{font-size:25px}.wrap{width:calc(100% - 20px);margin:18px auto 45px;padding:28px 20px 36px;min-height:560px}.counter{margin-bottom:35px}.stage h1{font-size:clamp(43px,12vw,66px)}.choice{min-height:78px}.top-note{font-size:9px}.letter-paper{padding:26px 20px}.letter-paper:before{inset:7px}}
 
-/* Midnight keepsake theme, deliberately dark but gentle to read. */
-:root{--bg:#100e16;--pink:#df91ad;--cream:#f6e9ec;--muted:#bba9b8;--ink:#f6e9ec;--rose:#df91ad;--gold:#c5a47e}
-html{background:#100e16;color-scheme:dark}
-body{background:radial-gradient(ellipse at 5% 0%,#4c293e 0,transparent 42%),radial-gradient(ellipse at 98% 100%,#25243d 0,transparent 48%),#100e16;color:#f6e9ec;background-attachment:fixed}
-body:before{opacity:.12}
-header{border-bottom-color:#c8a6b53a}
-.brand{color:#f0afc6}.top-note{color:#bda5b4}
-.wrap{border-color:#b99da04d;background:linear-gradient(145deg,#211b29f7,#17151ef7);box-shadow:0 28px 85px #0008,0 1px 0 #e4a4b021}
-.wrap:before,.wrap:after{color:#c5a47e}
-.progress{background:#544050}.progress>div{background:#df91ad}
-.counter{color:#bda4b3}
-.eyebrow{color:#e8a3bd}
-.stage h1{color:#fff1f3}.stage h1 em{color:#e8a3bd}
-.intro{color:#e0cbd5}
-.prompt{color:#e7b5c9}
-.choice{background:#2c2432;color:#f8eaf0;border-color:#6c5061;box-shadow:0 3px 0 #09070c44}
-.choice:hover{background:#3a293a;border-color:#df91ad;box-shadow:0 8px 24px #0005}
-.choice span{color:#e6a2bc}
-.choice.selected{background:#523044;border-color:#e8a3bd;color:#fff6f7}
-.reaction{border-left-color:#c5a47e}
-.reaction b{color:#f1aec5}.reaction p{color:#ead7e0}
-.next,.restart,.scene-action{background:#df91ad;color:#231420;box-shadow:0 5px 20px #0004}
-.next:hover,.restart:hover,.scene-action:hover{background:#f1b4cb;color:#231420}
-.music-toggle{background:#29202e;color:#f2d9e4;border-color:#705668}
-.music-toggle:hover{border-color:#df91ad}
-.letter-paper{background:#29222c;color:#f5e8e9;border-color:#876978;box-shadow:0 15px 50px #0007}
-.letter-paper:before{border-color:#735965}
-.letter-paper h2{color:#f1b5c8}
-.letter-paper p{color:#f0dfe5}
-.visual img{filter:grayscale(.35) sepia(.08);box-shadow:0 12px 35px #0007}
-.caption{color:#cbb0bd}
-.birthday-scene{background:radial-gradient(ellipse at center,#4b2d43,#201824);border-color:#806074}
-.scene-message{color:#f6c7d7}
-.gift-reveal{background:#332533;color:#f6e6ed;border-color:#9c758a}
-.gift-reveal h3,.gift-reveal p{color:#f8e6ed}
-footer{color:#b99dab}
-.spark{color:#f4b3ca}
+
+/* Final dark palette. Near-black surfaces with restrained burgundy accents. */
+:root{--bg:#08080c;--pink:#c98b9f;--cream:#f1e6eb;--muted:#a99ba5;--ink:#f1e6eb;--rose:#c98b9f;--gold:#b8a18d}
+html,body{background:#08080c!important;color:#f1e6eb!important;color-scheme:dark}
+body{background-image:radial-gradient(ellipse at 90% 0%,#24121e 0%,transparent 42%),radial-gradient(ellipse at 5% 100%,#18131f 0%,transparent 45%)!important;background-attachment:fixed!important}
+body:before{opacity:.055!important}
+header{border-bottom:1px solid #4a3440!important}
+.brand{color:#dca8b8!important}.top-note{color:#b2a0ab!important}
+.wrap{background:#111017!important;border:1px solid #45333f!important;box-shadow:0 24px 75px #000a!important}
+.wrap:before,.wrap:after{color:#9e807e!important}
+.progress{background:#352933!important}.progress>div{background:#bb7b92!important}
+.counter{color:#a99ba5!important}.eyebrow{color:#c98b9f!important}
+.stage h1{color:#f7edf0!important}.stage h1 em{color:#d99bae!important}
+.intro{color:#d6c5cd!important}.prompt{color:#dfbdcb!important}
+.choice{background:#1b1820!important;color:#f1e6eb!important;border:1px solid #54404d!important;box-shadow:none!important}
+.choice:hover{background:#29202b!important;border-color:#bb8196!important}
+.choice span{color:#c98b9f!important}
+.choice.selected{background:#392532!important;border-color:#c98b9f!important;color:#fff!important}
+.reaction{border-left-color:#a18b78!important}.reaction b{color:#dba3b7!important}.reaction p{color:#e7d8de!important}
+.next,.restart,.scene-action{background:#b87c91!important;color:#100c12!important;box-shadow:none!important}
+.next:hover,.restart:hover,.scene-action:hover{background:#d6a0b1!important}
+.music-toggle{background:#1c1820!important;color:#e6cbd5!important;border:1px solid #614657!important}
+.letter-paper{background:#1a171e!important;color:#f0e3e8!important;border:1px solid #59434e!important;box-shadow:0 12px 35px #0009!important}
+.letter-paper:before{border-color:#45333f!important}.letter-paper h2{color:#e2b0c1!important}.letter-paper p{color:#eadde2!important}
+.visual img{filter:grayscale(.35)!important;box-shadow:0 12px 35px #0008!important}
+.caption{color:#b9a5af!important}
+.birthday-scene{background:#19131d!important;border-color:#513947!important}
+.scene-message{color:#e4b8c8!important}
+.gift-reveal{background:#251c26!important;color:#f0e1e7!important;border:1px solid #745261!important}
+.gift-reveal h3,.gift-reveal p{color:#f0e1e7!important}
+footer{color:#a997a2!important}.spark{color:#d7a2b4!important}
 </style></head>
 <body><header><div class="brand">Dear Preet.</div><div class="top-note">A birthday made for one</div><button type="button" id="musicToggle" class="music-toggle" aria-label="Toggle background music" aria-pressed="false">♫ Music: off</button></header>
 <main class="wrap"><div class="progress" aria-label="Story progress"><div id="bar"></div></div><div class="counter"><span id="count">01 / 11</span><span>Preet, this is your story</span></div><div id="stage" class="stage" aria-live="polite"></div></main><footer>MADE WITH THOUGHT, FOR PREET · HAPPY BIRTHDAY</footer>
